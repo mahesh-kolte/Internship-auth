@@ -1,7 +1,7 @@
-import axios from "axios";
+ import axios from "axios";
 
 const API = axios.create({
-  baseURL: " https://internship-auth.onrender.com",
+  baseURL: "https://internship-auth.onrender.com/api",
 });
 
 export default API;
